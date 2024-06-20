@@ -13,8 +13,6 @@ import tensorflow as tf
 import keras
 
 
-# Load the model from the .h5 file
-model = load_model('my_model.h5')
 
 
 def clean(text):
