@@ -16,7 +16,6 @@ def load_model_dl(model_path):
     model = load_model(model_path)
     return model
 
-
 # Load the TfidfVectorizer
 with open('Models/tfidf_vectorizer.pkl', 'rb') as file:
     vectorizer = pickle.load(file)
@@ -32,7 +31,6 @@ def preprocess_text_for_dl_model(text):
     padded_sequences = pad_sequences(sequences, maxlen=1000, padding='post')
     return padded_sequences
 
-
 # Dictionary of models
 models = {
     "Linear SVM": "Models/linear_svm.pkl",
@@ -42,6 +40,10 @@ models = {
     "LSTM": "Models/lstm_model.keras",
     "Simple RNN": "Models/simple_rnn_model.keras"
 }
+
+# Load custom CSS
+with open('styles.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("Fake News Classifier")
