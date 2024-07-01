@@ -50,19 +50,17 @@ AMD RX 6800
 3. After that by giving inputs from the csv files (true.csv, fake.csv) and choosing the required model, output will be shown in the browser.
 
 ### Limitations
-
-    * Trained models using only one dataset.
-    * Didn’t use cross-validation techniques here.
-    * Have only done classification for English    language news.
-    * Only available in web platform.
+* Trained models using only one dataset.
+* Didn’t use cross-validation techniques here.
+* Have only done classification for English language news.
+* Only available in web platform.
 
 ### Future Work
-
-    * To do fine-tuning model parameters on our app.
-    * Exploring advanced architectures/models for further improvements
-    * Incorporating data in different formats (such as- images, videos).
-    * Expanding the dataset to include multiple languages. 
-    * To setup our application in mobile platform.
+* To do fine-tuning model parameters on our app.
+* Exploring advanced architectures/models for further improvements
+* Incorporating data in different formats (such as- images, videos).
+* Expanding the dataset to include multiple languages. 
+* To setup our application in mobile platform.
 
 
 
